@@ -14,7 +14,7 @@ public class Employee {
 	
 	
 	@Id
-	private ObjectId id;
+	private Long id;
 	
 	private String name;
 	
@@ -25,11 +25,11 @@ public class Employee {
 	
 	private String address;
 
-	public ObjectId getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(ObjectId id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
